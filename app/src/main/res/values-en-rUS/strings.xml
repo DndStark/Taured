@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_title">User login</string>
+    <string name="btn_login">Log in</string>
+    <string name="edit_key">PassWord</string>
+    <string name="edit_user">UserName</string>
+    <string name="app_name">Tauredd</string>
+    <string name="principal_tit">System Manager</string>
+    <string name="nuevo_pass">New password</string>
+    <string name="repeat_pass">Repeat new password</string>
+    <string name="guardar_nueva_clave">Save new password</string>
+    <string name="config_sistema">System settings</string>
+    <string name="menu_clave">Edit password</string>
+    <string name="menu_ventana">Interfaces</string>
+    <string name="main_rol">Roles</string>
+    <string name="cerrar">Sign out</string>
+    <string name="ingreso_falla">The user or password is wrong.</string>
+    <string name="dato_vacio">Complete the fields.</string>
+    <string name="no_disponible">Contact is not enable.</string>
+    <string name="admin_clave">Manage password</string>
+    <string name="admin_ventana">Manage Interfaces</string>
+    <string name="admin_rol">Manage Roles</string>
+    <string name="admin_sesion">Finished session</string>
+    <string name="ventana_tit">System manager</string>
+    <string name="item3">View url</string>
+    <string name="item4">Controller url</string>
+    <string name="ventana_reg">Register</string>
+    <string name="item1">Name of father window</string>
+    <string name="item2">Window name</string>
+    <string name="ven_nombre">Name</string>
+    <string name="ven_clave">Key</string>
+    <string name="ven_url">View url</string>
+    <string name="ven_icon">Actions</string>
+    <string name="item5">Rol name</string>
+    <string name="item6">Description</string>
+    <string name="item7">More functions</string>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Taured</string>
+    <string name="title_activity_ver">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_principal_admin">Administrador principal</string>
+
+    <string name="navigation_drawer_open">Abrir navegador</string>
+    <string name="navigation_drawer_close">Cerrar navegador</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_principal_user">PrincipalUser</string>
+    <string name="login_title">Ingreso de usuario</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="edit_key">Clave</string>
+    <string name="edit_user">Usuario</string>
+    <string name="principal_tit">Administrador del Sistema</string>
+    <string name="nuevo_pass">Nueva clave</string>
+    <string name="repeat_pass">Repetir nueva clave</string>
+    <string name="guardar_nueva_clave">Guardar nueva contraseña</string>
+    <string name="config_sistema">Configuración del Sistema</string>
+    <string name="menu_clave">Editar Clave</string>
+    <string name="menu_ventana">Ventanas</string>
+    <string name="main_rol">Roles</string>
+    <string name="cerrar">Cerrar Sesión</string>
+    <string name="ingreso_falla">El usuario o clave son erroneos.</string>
+    <string name="dato_vacio">Complete los campos.</string>
+    <string name="no_disponible">Contacto no disponible</string>
+    <string name="admin_clave">Gestión de la clave.</string>
+    <string name="admin_ventana">Gestión de Ventanas</string>
+    <string name="admin_rol">Gestión de Roles.</string>
+    <string name="admin_sesion">Sesión finalizada.</string>
+    <string name="ventana_tit">Administrador del Sistema</string>
+    <string name="item1">Nombre de la ventana padre</string>
+    <string name="item3">Url de la vista</string>
+    <string name="item4">Url del Controlador</string>
+    <string name="ventana_reg">Registrar</string>
+    <string name="item2">Nombre de la ventana</string>
+    <string name="ven_nombre">Nombre</string>
+    <string name="ven_clave">Clave</string>
+    <string name="ven_url">Url vista</string>
+    <string name="ven_icon">Acciones</string>
+    <string name="item5">Nombre de rol</string>
+    <string name="item6">Descripción</string>
+    <string name="item7">Más funciones</string>
+</resources>

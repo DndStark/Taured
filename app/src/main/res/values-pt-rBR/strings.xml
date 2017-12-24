@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taured</string>
+    <string name="login_title">login do usuário</string>
+    <string name="btn_login">login</string>
+    <string name="edit_key">chave</string>
+    <string name="edit_user">usuário</string>
+    <string name="principal_tit">Administrador do Sistema</string>
+    <string name="nuevo_pass">Nova senha</string>
+    <string name="repeat_pass">repita a nova chave</string>
+    <string name="guardar_nueva_clave">salvar nova senha</string>
+    <string name="config_sistema">configuração do sistema</string>
+    <string name="menu_clave">editar chave</string>
+    <string name="menu_ventana">jenelas</string>
+    <string name="main_rol">papéis</string>
+    <string name="cerrar">fechar fechar Sessão</string>
+    <string name="ingreso_falla">"O usuário ou a senha estão errados "</string>
+    <string name="dato_vacio">Complete os campos.</string>
+    <string name="no_disponible">Contato não disponível</string>
+    <string name="admin_clave">gerenciamento de chaves</string>
+    <string name="admin_ventana">gerenciamento de janelas</string>
+    <string name="admin_rol">gerenciamento de papéis</string>
+    <string name="admin_sesion">"sessão final "</string>
+    <string name="ventana_tit">"Administrador do sistema "</string>
+    <string name="item1">Nome da janela pai</string>
+    <string name="item3">"Url de visualização "</string>
+    <string name="item4">URL do controlador</string>
+    <string name="ventana_reg">Registre-se</string>
+    <string name="item2">Nome da janela</string>
+    <string name="ven_nombre">Nome</string>
+    <string name="ven_clave">Chave</string>
+    <string name="ven_url">Vista do url</string>
+    <string name="ven_icon">"Ações "</string>
+    <string name="item5">nome do papéi</string>
+    <string name="item6">Descrição</string>
+    <string name="item7">Mais funções</string>
+</resources>

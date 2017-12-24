@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_clave"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_clave" />
+        <item
+            android:id="@+id/menu_ventana"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_ventana" />
+        <item
+            android:id="@+id/menu_rol"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/main_rol" />
+    </group>
+
+    <item android:title="Administrador">
+        <menu>
+            <item
+                android:id="@+id/menu_salir"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/cerrar" />
+        </menu>
+    </item>
+
+</menu>
