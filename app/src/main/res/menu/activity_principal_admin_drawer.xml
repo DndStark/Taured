@@ -7,14 +7,17 @@
         <item
             android:id="@+id/menu_clave"
             android:icon="@drawable/ic_menu_manage"
+            android:iconTint="@color/colorPrimaryDark"
             android:title="@string/menu_clave" />
         <item
             android:id="@+id/menu_ventana"
             android:icon="@drawable/ic_menu_slideshow"
+            android:iconTint="@color/colorPrimaryDark"
             android:title="@string/menu_ventana" />
         <item
             android:id="@+id/menu_rol"
             android:icon="@drawable/ic_menu_share"
+            android:iconTint="@color/colorPrimaryDark"
             android:title="@string/main_rol" />
     </group>
 
@@ -23,6 +26,7 @@
             <item
                 android:id="@+id/menu_salir"
                 android:icon="@drawable/ic_menu_send"
+                android:iconTint="@color/colorPrimaryDark"
                 android:title="@string/cerrar" />
         </menu>
     </item>

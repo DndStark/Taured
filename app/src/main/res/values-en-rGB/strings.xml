@@ -5,4 +5,17 @@
     <string name="btn_login">Log in</string>
     <string name="edit_key">PassWord</string>
     <string name="edit_user">UserName</string>
+    <string name="principal_tit">System manager</string>
+    <string name="nuevo_pass">New password</string>
+    <string name="repeat_pass">Repeat the new password</string>
+    <string name="guardar_nueva_clave">Save new password</string>
+    <string name="config_sistema">System settings</string>
+    <string name="menu_clave">password edit</string>
+    <string name="menu_ventana">Windows</string>
+    <string name="main_rol">Roles</string>
+    <string name="cerrar">Sign out</string>
+    <string name="ingreso_falla">The password or user are wrong</string>
+    <string name="dato_vacio">Complete the fields</string>
+    <string name="no_disponible">Contact disable</string>
+    <string name="admin_clave">Manage the password</string>
 </resources>

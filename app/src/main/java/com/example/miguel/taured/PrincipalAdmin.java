@@ -88,6 +88,8 @@ public class PrincipalAdmin extends AppCompatActivity
         if (id == R.id.menu_clave) {
             m = PrincipalAdmin.this.getResources().getString(R.string.admin_clave);
             Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalAdmin.this, GestionarContra.class);
+            startActivity(menu);
         } else if (id == R.id.menu_ventana) {
             m = PrincipalAdmin.this.getResources().getString(R.string.admin_ventana);
             Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();

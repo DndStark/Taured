@@ -1,5 +1,6 @@
 package com.example.miguel.taured;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class PrincipalUser extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -79,19 +81,34 @@ public class PrincipalUser extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Intent menu;
+        String m;
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            m = PrincipalUser.this.getResources().getString(R.string.web_list);
+            Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalUser.this, GestionarWebs.class);
+            startActivity(menu);
         } else if (id == R.id.nav_gallery) {
-
+            m = PrincipalUser.this.getResources().getString(R.string.web_secciones);
+            Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalUser.this, GestionarSecciones.class);
+            startActivity(menu);
         } else if (id == R.id.nav_slideshow) {
-
+            m = PrincipalUser.this.getResources().getString(R.string.web_productos);
+            Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalUser.this, GestionarProductos.class);
+            startActivity(menu);
         } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
+            m = PrincipalUser.this.getResources().getString(R.string.web_servicios);
+            Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalUser.this, GestionarServicios.class);
+            startActivity(menu);
         } else if (id == R.id.nav_send) {
-
+            m = PrincipalUser.this.getResources().getString(R.string.admin_sesion);
+            Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
+            menu = new Intent(PrincipalUser.this, Login.class);
+            startActivity(menu);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

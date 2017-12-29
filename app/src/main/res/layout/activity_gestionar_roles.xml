@@ -95,13 +95,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal">
+
                 <Button
                     android:id="@+id/btn_guardar_clave"
                     style="?android:textAppearanceSmall"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:background="@color/colorPrimaryDark"
                     android:text="@string/ventana_reg"
+                    android:textColor="@android:color/background_light"
+                    android:textColorLink="@android:color/background_light"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>

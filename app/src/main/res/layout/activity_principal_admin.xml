@@ -38,55 +38,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
+                android:textSize="10pt"
+                android:paddingVertical="10dp"
                 android:text="@string/principal_tit"/>
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <AutoCompleteTextView
-                    android:id="@+id/edit_usuario"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="5dp"
-                    android:hint="@string/nuevo_pass"
-                    android:inputType="textEmailAddress"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/edit_clave"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="5dp"
-                    android:hint="@string/repeat_pass"
-                    android:imeActionId="6"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-
-            </android.support.design.widget.TextInputLayout>
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
-                <Button
-                    android:id="@+id/btn_guardar_clave"
-                    style="?android:textAppearanceSmall"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="@string/guardar_nueva_clave"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:paddingVertical="10dp"
+                android:text="@string/admin_detail"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:paddingVertical="10dp"
+                android:text="@string/admin_detail_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:textAlignment="center"
+                android:paddingVertical="10dp"
+                android:text="@string/admin_intro"/>
 
         </LinearLayout>
 

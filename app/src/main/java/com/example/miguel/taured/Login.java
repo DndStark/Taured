@@ -38,6 +38,8 @@ public class Login extends AppCompatActivity {
                         principal = new Intent(Login.this, PrincipalAdmin.class);
                     }else if(strUsu.equals("miguel")){
                         principal = new Intent(Login.this, PrincipalUser.class);
+                    }else if(strUsu.equals("consu")) {
+                        principal = new Intent(Login.this, Consumidor.class);
                     }else{
                         String m = Login.this.getResources().getString(R.string.ingreso_falla);
                         Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();

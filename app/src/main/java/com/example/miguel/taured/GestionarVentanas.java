@@ -87,7 +87,7 @@ public class GestionarVentanas extends AppCompatActivity
         if (id == R.id.menu_clave) {
             m = GestionarVentanas.this.getResources().getString(R.string.admin_clave);
             Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
-            menu = new Intent(GestionarVentanas.this, PrincipalAdmin.class);
+            menu = new Intent(GestionarVentanas.this, GestionarContra.class);
             startActivity(menu);
         } else if (id == R.id.menu_ventana) {
             m = GestionarVentanas.this.getResources().getString(R.string.admin_ventana);

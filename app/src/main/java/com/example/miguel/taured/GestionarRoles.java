@@ -87,7 +87,7 @@ public class GestionarRoles extends AppCompatActivity
         if (id == R.id.menu_clave) {
             m = GestionarRoles.this.getResources().getString(R.string.admin_clave);
             Toast.makeText(getApplicationContext(), m, Toast.LENGTH_SHORT).show();
-            menu = new Intent(GestionarRoles.this, PrincipalAdmin.class);
+            menu = new Intent(GestionarRoles.this, GestionarContra.class);
             startActivity(menu);
         } else if (id == R.id.menu_ventana) {
             m = GestionarRoles.this.getResources().getString(R.string.admin_ventana);

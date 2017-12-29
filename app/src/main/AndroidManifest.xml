@@ -9,7 +9,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ico"
         android:label="IAMD"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -30,7 +30,17 @@
             android:label="@string/title_activity_principal_user"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".GestionarVentanas" />
-        <activity android:name=".GestionarRoles"></activity>
+        <activity android:name=".GestionarRoles" />
+        <activity android:name=".GestionarContra" />
+        <activity android:name=".GestionarWebs" />
+        <activity android:name=".GestionarSecciones" />
+        <activity android:name=".GestionarProductos" />
+        <activity android:name=".GestionarServicios" />
+        <activity android:name=".AgregarWeb" />
+        <activity android:name=".AgregarSecc" />
+        <activity
+            android:name=".Consumidor"
+            android:label="@string/title_activity_consumidor"></activity>
     </application>
 
 </manifest>
